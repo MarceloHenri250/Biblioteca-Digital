@@ -1,0 +1,3 @@
+Um conceito de logo moderno e minimalista para BookSphere, uma biblioteca digital, com livros estilizados e interconectados formando uma estrutura semelhante a uma esfera, com um vibrante gradiente roxo como cor primária.
+Delicados detalhes em rosa e amarelo destacam elementos-chave, adicionando um toque lúdico ao design.
+O logo incorpora a natureza digital da biblioteca com suas formas limpas e simplificadas, enquanto a esfera simboliza uma comunidade global de leitores. O roxo significa conhecimento e criatividade, enquanto o rosa e o amarelo adicionam calor e otimismo, criando uma sensação de acessibilidade e inovação dentro da marca BookSphere.

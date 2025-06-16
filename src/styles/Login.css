@@ -1,0 +1,130 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6d28d9 0%, #ff3576 60%, #ffe066 100%);
+  padding: 20px;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(44, 21, 87, 0.13), 0 2px 8px #fff8;
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7c3aed;
+  margin-bottom: 16px;
+}
+
+.login-subtitle {
+  font-size: 1.1rem;
+  color: #7c3aed;
+  margin-bottom: 24px;
+}
+
+.login-error {
+  background: #ffeaea;
+  color: #b91c1c;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #a78bfa;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-input:focus {
+  border-color: #ff3576;
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #7c3aed;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.toggle-password:hover {
+  color: #5b21b6;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form-btn {
+  background: linear-gradient(90deg, #7c3aed 0%, #ff3576 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form-btn:hover {
+  background: linear-gradient(90deg, #ff3576 0%, #7c3aed 100%);
+}
+
+.login-links {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #7c3aed;
+}
+
+.login-links a {
+  color: #7c3aed;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.login-links a:hover {
+  color: #5b21b6;
+}
+
+.login-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+}

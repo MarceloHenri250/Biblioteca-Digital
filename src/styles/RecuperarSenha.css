@@ -1,0 +1,196 @@
+.recuperar-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6d28d9 0%, #ff3576 60%, #ffe066 100%);
+  padding: 20px;
+}
+
+.recuperar-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(44, 21, 87, 0.13), 0 2px 8px #fff8;
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.recuperar-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.recuperar-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7c3aed;
+  margin-bottom: 16px;
+}
+
+.recuperar-message {
+  background: #ffeaea;
+  color: #b91c1c;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.recuperar-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #a78bfa;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #ff3576;
+}
+
+.form-btn {
+  background: linear-gradient(90deg, #7c3aed 0%, #ff3576 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form-btn:hover {
+  background: linear-gradient(90deg, #ff3576 0%, #7c3aed 100%);
+}
+
+.recuperar-links {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #7c3aed;
+}
+
+.recuperar-links a {
+  color: #7c3aed;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.recuperar-links a:hover {
+  color: #5b21b6;
+}
+
+.token-display {
+  margin-top: 16px;
+  background: #f3f0ff;
+  color: #7c3aed;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  text-align: center;
+  word-break: break-word;
+}
+
+/* Estilos para a página de recuperação de senha */
+.recuperar-senha-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.recuperar-senha-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recuperar-senha-container form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.recuperar-senha-container input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.recuperar-senha-container button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recuperar-senha-container button:hover {
+  background-color: #0056b3;
+}
+
+.recuperar-senha-container p {
+  margin-top: 1rem;
+  color: #333;
+}
+
+/* Estilos para o botão de exibir/ocultar senha */
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #7c3aed;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.toggle-password:hover {
+  color: #5b21b6;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .recuperar-card {
+    padding: 24px;
+  }
+
+  .recuperar-title {
+    font-size: 1.8rem;
+  }
+
+  .form-btn {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+
+  .recuperar-links {
+    font-size: 0.8rem;
+  }
+}

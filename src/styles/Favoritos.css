@@ -1,0 +1,498 @@
+/* Utilize as mesmas classes da Home para manter o padrão visual */
+/* ...vazio, pois todas as classes são herdadas de Home.css... */
+
+.favoritos-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(120deg, #ede9fe 0%, #f5f7fa 100%);
+  padding-bottom: 40px;
+}
+
+.favoritos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 36px 18px 0 18px;
+}
+
+.favoritos-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.favoritos-hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d1457;
+  margin-bottom: 0.5rem;
+  letter-spacing: -1px;
+}
+
+.favoritos-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.favoritos-filtros-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(44,21,87,0.08);
+  padding: 40px 64px 28px 64px;
+  margin-bottom: 40px;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.favoritos-filtros-card form.row {
+  display: flex !important;
+  flex-wrap: nowrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.favoritos-filtros-card .col-md-4,
+.favoritos-filtros-card .col-md-2 {
+  flex: 1 1 0;
+  min-width: 180px;
+  max-width: 340px;
+  padding: 0;
+}
+
+.favoritos-filtros-card .col-md-1 {
+  flex: 0 0 80px;
+  min-width: 70px;
+  max-width: 100px;
+  padding: 0;
+}
+
+.favoritos-filtro-input {
+  border-radius: 10px !important;
+  font-size: 1.13rem;
+  min-height: 48px;
+  border: 1.5px solid #ede9fe;
+  background: #f8fafc;
+  color: #2d1457;
+  transition: border 0.18s;
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  margin-bottom: 0 !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  white-space: normal !important;
+  text-overflow: initial !important;
+  overflow: visible !important;
+  min-width: 0;
+  width: 100%;
+}
+.favoritos-filtro-input:focus {
+  border: 1.5px solid #7c3aed;
+  background: #fff;
+  color: #2d1457;
+}
+
+.favoritos-livros-bg {
+  background: linear-gradient(120deg, #f8fafc 60%, #ede9fe 100%);
+  border-radius: 18px;
+  padding: 38px 18px 32px 18px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 16px rgba(44,21,87,0.06);
+}
+
+.favoritos-livros-list {
+  margin-top: 0;
+  row-gap: 38px !important;
+  column-gap: 18px !important;
+}
+
+.favoritos-card-custom {
+  transition: transform 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 12px rgba(44, 34, 94, 0.10);
+  border-radius: 14px;
+  max-width: 210px;
+  min-width: 200px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0 !important;
+  background: #fff;
+  border: 1.5px solid #ede9fe;
+}
+.favoritos-card-custom:hover {
+  transform: translateY(-7px) scale(1.035);
+  box-shadow: 0 8px 24px rgba(44, 34, 94, 0.18);
+  border: 1.5px solid #a78bfa;
+}
+
+.favoritos-card-custom .card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.favoritos-livro-capa,
+.favoritos-card-custom img,
+.favoritos-sem-capa {
+  height: 210px !important;
+  min-height: 210px;
+  max-height: 210px;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+}
+
+.favoritos-livro-titulo {
+  font-weight: 700;
+  color: #2d1457;
+  font-size: 1.08rem;
+  margin-bottom: 0.4rem;
+}
+
+.favoritos-livro-autor {
+  color: #4f46e5;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.favoritos-livro-categoria {
+  color: #7c3aed;
+  font-size: 0.98rem;
+}
+
+.favoritos-livro-btn {
+  background: linear-gradient(90deg, #6c1aad 60%, #a084ee 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.18s, box-shadow 0.18s;
+  box-shadow: 0 1px 4px rgba(44, 34, 94, 0.10);
+  margin-top: 8px;
+}
+.favoritos-livro-btn:hover {
+  background: linear-gradient(90deg, #a084ee 0%, #6c1aad 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(44, 34, 94, 0.18);
+}
+
+.favoritos-sem-capa {
+  font-size: 1.1rem;
+  color: #bbb;
+  border-radius: 14px 14px 0 0;
+  background: #f3f0ff !important;
+}
+
+.favoritos-bg-dark {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #231942 0%, #6d28d9 60%, #ff3576 100%);
+  padding-bottom: 40px;
+}
+
+.favoritos-container-dark {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 36px 18px 0 18px;
+}
+
+.favoritos-hero-dark {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.favoritos-hero-title-dark {
+  font-size: 3.5rem; /* Match Home title size */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  letter-spacing: -1px;
+  background: linear-gradient(90deg, #ffe066, #ff3576); /* Match Home gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: unset;
+  text-shadow: 0 4px 24px rgba(44, 21, 87, 0.2); /* Match Home shadow */
+  text-align: center;
+}
+.favoritos-subtitle-dark {
+  font-size: 1.18rem;
+  color: #bdb5e2;
+  margin-bottom: 1.5rem;
+}
+
+.favoritos-filtros-card-dark {
+  background: linear-gradient(120deg, #2d1457 60%, #a78bfa 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(44,21,87,0.18), 0 2px 8px #fff2;
+  padding: 32px 32px 18px 32px;
+  margin-bottom: 40px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: box-shadow 0.25s, border 0.25s, background 0.25s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.favoritos-filtros-card-dark:hover {
+  box-shadow: 0 16px 48px #a78bfa55, 0 2px 8px #fff2;
+}
+
+.favoritos-filtros-form-dark {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 24px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.favoritos-filtro-group {
+  display: flex;
+  align-items: center;
+  background: #3b2170;
+  border-radius: 10px;
+  padding: 0 14px;
+  min-width: 260px;
+  max-width: 340px;
+  width: 100%;
+  box-shadow: 0 1px 8px #a78bfa22;
+  transition: box-shadow 0.2s;
+}
+.favoritos-filtro-group:focus-within {
+  box-shadow: 0 2px 16px #a78bfa44;
+}
+
+.favoritos-busca-icon-dark {
+  color: #a78bfa;
+  font-size: 1.2rem;
+  margin-right: 7px;
+}
+.favoritos-filtro-input-dark {
+  border: none;
+  outline: none;
+  font-size: 1.08rem;
+  background: transparent;
+  color: #fff;
+  padding: 10px 0;
+  min-width: 120px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 0 2px;
+  transition: background 0.18s, color 0.18s;
+}
+.favoritos-filtro-input-dark:focus {
+  background: #4b2fa7;
+  color: #fff;
+}
+
+.favoritos-ordem-btn-dark {
+  background: #3b2170;
+  color: #a78bfa;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px #a78bfa22;
+}
+.favoritos-ordem-btn-dark:hover {
+  background: #a78bfa;
+  color: #2d1457;
+  box-shadow: 0 2px 12px #7c3aed33;
+}
+
+.favoritos-alert-dark {
+  background: #231942;
+  color: #fff;
+  border-radius: 10px;
+  padding: 28px 0;
+  text-align: center;
+  font-size: 1.15rem;
+  margin-top: 32px;
+}
+
+.favoritos-cards-list-dark {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px 32px;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 32px;
+}
+
+.favoritos-card-dark {
+  background: linear-gradient(135deg, #2d1457 60%, #a78bfa 100%);
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(44,21,87,0.22);
+  width: 320px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.18s, box-shadow 0.18s;
+  border: 2px solid #a78bfa;
+}
+.favoritos-card-dark:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 16px 48px rgba(44,21,87,0.28);
+  border: 2px solid #ff3576;
+}
+
+.favoritos-card-capa-dark {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: #18122b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px 22px 0 0;
+  overflow: hidden;
+}
+.favoritos-card-capa-dark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 22px 22px 0 0;
+}
+.favoritos-sem-capa-dark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #231942;
+  border-radius: 22px 22px 0 0;
+}
+.favoritos-card-heart {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  filter: drop-shadow(0 2px 8px #ff3576cc);
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  transition: transform 0.18s, background 0.18s;
+  box-shadow: 0 2px 8px #ff357633;
+}
+.favoritos-card-heart.favorito,
+.favoritos-card-heart:hover {
+  background: #fff0f6;
+  color: #ff3576;
+  transform: scale(1.18) rotate(-12deg);
+}
+
+.favoritos-card-body-dark {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 22px 18px 22px;
+  background: transparent;
+}
+.favoritos-card-titulo-dark {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.7rem;
+  text-shadow: 0 2px 8px #18122b44;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.favoritos-card-info-dark {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #e0e7ff;
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+}
+.favoritos-card-info-dark span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.favoritos-card-btn-dark {
+  background: linear-gradient(90deg, #ff3576 60%, #a78bfa 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.18s, box-shadow 0.18s;
+  box-shadow: 0 1px 4px rgba(44, 34, 94, 0.10);
+  margin-top: 8px;
+  padding: 10px 0;
+}
+.favoritos-card-btn-dark:hover {
+  background: linear-gradient(90deg, #a78bfa 0%, #ff3576 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(44, 34, 94, 0.18);
+}
+
+/* Responsividade aprimorada */
+@media (max-width: 1200px) {
+  .favoritos-card-dark {
+    width: 48vw;
+    min-width: 220px;
+    max-width: 98vw;
+  }
+  .favoritos-filtros-card-dark {
+    padding: 18px 8px 10px 8px;
+    max-width: 98vw;
+  }
+  .favoritos-filtros-form-dark {
+    gap: 10px 8px;
+  }
+}
+@media (max-width: 900px) {
+  .favoritos-card-dark {
+    width: 98vw;
+    min-width: 0;
+    max-width: 100vw;
+  }
+  .favoritos-container-dark {
+    padding: 12px 2vw 0 2vw;
+  }
+  .favoritos-filtros-card-dark {
+    padding: 12px 2vw 8px 2vw;
+    max-width: 99vw;
+  }
+  .favoritos-filtros-form-dark {
+    gap: 8px 4px;
+  }
+  .favoritos-card-titulo-dark,
+  .favoritos-card-info-dark span {
+    font-size: 1.05rem;
+  }
+}
+@media (max-width: 600px) {
+  .favoritos-card-dark {
+    width: 98vw;
+    min-width: 0;
+  }
+  .favoritos-cards-list-dark {
+    gap: 14px 4px;
+  }
+  .favoritos-filtros-card-dark {
+    padding: 8px 1vw 4px 1vw;
+    max-width: 100vw;
+  }
+  .favoritos-filtros-form-dark {
+    gap: 6px 2px;
+  }
+}
+

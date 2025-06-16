@@ -1,0 +1,120 @@
+.perfil-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6d28d9 0%, #ff3576 60%, #ffe066 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.perfil-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(44, 21, 87, 0.13), 0 2px 8px #fff8;
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.perfil-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #7c3aed;
+}
+
+.alert {
+  margin-bottom: 20px;
+  background: #d1e7dd;
+  color: #0f5132;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.perfil-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.perfil-form-group {
+  text-align: left;
+}
+
+.perfil-form-group label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.perfil-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1.5px solid #a78bfa;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #2d1457;
+  transition: border 0.2s;
+}
+
+.perfil-input:focus {
+  border-color: #ff3576;
+  background: #fff;
+  outline: none;
+}
+
+.perfil-btn {
+  background: linear-gradient(90deg, #7c3aed 0%, #ff3576 80%, #ffe066 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.perfil-btn:hover {
+  background: linear-gradient(90deg, #ffe066 0%, #ff3576 100%);
+  color: #2d1457;
+}
+
+.perfil-foto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.perfil-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #7c3aed;
+  margin-bottom: 10px;
+}
+
+.perfil-foto-label {
+  background: #7c3aed;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.perfil-foto-label:hover {
+  background: #5b21b6;
+}
+
+.perfil-foto-input {
+  display: none;
+}

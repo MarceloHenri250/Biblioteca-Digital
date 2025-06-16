@@ -1,0 +1,11 @@
+/* Cores baseadas na logo BookSphere */
+:root {
+  --cor-roxo: #7c3aed;
+  --cor-roxo-escuro: #2d1457;
+  --cor-rosa: #ff3576;
+  --cor-amarelo: #ffe066;
+  --cor-branco: #fff;
+  --cor-cinza-bg: #f5f6fa;
+  --cor-roxo-claro: #a78bfa;
+  --cor-roxo-gradiente: linear-gradient(90deg, #7c3aed 0%, #a78bfa 100%);
+}
