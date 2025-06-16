@@ -26,7 +26,7 @@ BookSphere é um sistema desenvolvido para gerenciar livros, autores, categorias
 ## Como rodar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/BookSphere-React.git
+   git clone https://github.com/seu-usuario/Biblioteca-Digital.git
    ```
 2. Instale as dependências:
    ```bash
